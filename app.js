@@ -16,7 +16,7 @@ const startTimer=() => {
      if(timeLeft==0){
         clearInterval(interval);
         alert("Time's up!");
-        timeleft=1500;
+        timeLeft=1500;
         updateTimer();
      }
     },1000);
